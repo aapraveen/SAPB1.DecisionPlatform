@@ -1,13 +1,9 @@
-using System.Threading;
-using System.Threading.Tasks;
+using SAPB1.DecisionPlatform.Infrastructure.Models;
 
 namespace SAPB1.DecisionPlatform.Infrastructure.Data.Repositories;
 
-/// <summary>
-/// Customer repository.
-/// </summary>
 public interface ICustomerRepository
 {
-    Task<int> GetCustomerCountAsync(
+    Task<IReadOnlyList<CustomerDto>> GetCustomersAsync(
         CancellationToken cancellationToken = default);
 }

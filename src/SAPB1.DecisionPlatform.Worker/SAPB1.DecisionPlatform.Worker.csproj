@@ -15,5 +15,13 @@
     <ProjectReference Include="..\SAPB1.DecisionPlatform.Infrastructure\SAPB1.DecisionPlatform.Infrastructure.csproj" />
     <ProjectReference Include="..\SAPB1.DecisionPlatform.Persistence\SAPB1.DecisionPlatform.Persistence.csproj" />
   </ItemGroup>
+<ItemGroup>
 
+  <None Update="appsettings.json">
+
+  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+
+  </None>
+
+</ItemGroup>
 </Project>

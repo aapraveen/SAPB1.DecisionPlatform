@@ -5,9 +5,6 @@ using SAPB1.DecisionPlatform.Infrastructure.Data.Repositories;
 
 namespace SAPB1.DecisionPlatform.Infrastructure;
 
-/// <summary>
-/// Infrastructure dependency registration.
-/// </summary>
 public static class DependencyInjection
 {
     public static IServiceCollection AddInfrastructure(
