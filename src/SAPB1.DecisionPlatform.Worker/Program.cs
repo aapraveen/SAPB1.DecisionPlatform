@@ -1,7 +1,16 @@
-using SAPB1.DecisionPlatform.Worker;
+using Microsoft.Extensions.Hosting;
+using SAPB1.DecisionPlatform.Application;
+using SAPB1.DecisionPlatform.Infrastructure;
+using SAPB1.DecisionPlatform.Persistence;
 
-var builder = Host.CreateApplicationBuilder(args);
-builder.Services.AddHostedService<Worker>();
+Host.CreateDefaultBuilder(args)
+    .ConfigureServices((context, services) =>
+    {
+        services.AddApplication();
 
-var host = builder.Build();
-host.Run();
+        services.AddInfrastructure();
+
+        services.AddPersistence();
+    })
+    .Build()
+    .Run();
