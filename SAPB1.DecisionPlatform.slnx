@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/SAPB1.DecisionPlatform.Application/SAPB1.DecisionPlatform.Application.csproj" />
+    <Project Path="src/SAPB1.DecisionPlatform.Domain/SAPB1.DecisionPlatform.Domain.csproj" />
+    <Project Path="src/SAPB1.DecisionPlatform.Infrastructure/SAPB1.DecisionPlatform.Infrastructure.csproj" />
+    <Project Path="src/SAPB1.DecisionPlatform.Installer/SAPB1.DecisionPlatform.Installer.csproj" />
+    <Project Path="src/SAPB1.DecisionPlatform.Persistence/SAPB1.DecisionPlatform.Persistence.csproj" />
+    <Project Path="src/SAPB1.DecisionPlatform.Shared/SAPB1.DecisionPlatform.Shared.csproj" />
+    <Project Path="src/SAPB1.DecisionPlatform.UI/SAPB1.DecisionPlatform.UI.csproj" />
+    <Project Path="src/SAPB1.DecisionPlatform.Worker/SAPB1.DecisionPlatform.Worker.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/SAPB1.DecisionPlatform.Tests/SAPB1.DecisionPlatform.Tests.csproj" />
+  </Folder>
+</Solution>
